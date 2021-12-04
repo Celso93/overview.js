@@ -40,8 +40,15 @@ https://github.com/mochajs/mocha/issues/2018
 https://mochajs.org/#timeouts
 
 # Reporters
-spec:
-dot matrix:
+spec: mocha test/ --reporter spec
+dot matrix: mocha test/ --reporter dot
+You can pass dot. nyan, json and others
+```
+
+# To run the test
+You have to run 
+```bash
+npm install --save-dev
 ```
 
 # Documetation
